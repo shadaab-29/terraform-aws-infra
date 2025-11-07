@@ -3,7 +3,7 @@ terraform {
     bucket         = "terraform-state-shadaab"
     key            = "aws-infra/terraform.tfstate"
     region         = "ap-south-1"
-    dynamodb_table = "terraform-lock-table"
+    dynamodb_table = "use_lockfile"
     encrypt        = true
   }
 }
