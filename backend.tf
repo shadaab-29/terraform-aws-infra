@@ -1,4 +1,4 @@
-/*terraform {
+terraform {
   backend "s3" {
     bucket         = "terraform-state-shadaab"
     key            = "aws-infra/terraform.tfstate"
@@ -6,4 +6,4 @@
     dynamodb_table = "use_lockfile"
     encrypt        = true
   }
-}*/
+}
